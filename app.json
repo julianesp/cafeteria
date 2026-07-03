@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "registro-cafeteria",
+    "name": "Registro Cafeteria",
     "slug": "registro-cafeteria",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -10,6 +10,8 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.local.cafeteria",
+      "versionCode": 1,
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -19,6 +21,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f3c5607b-d7a6-463f-ba41-5cf9fcd5731e"
+      }
+    },
+    "owner": "neuraiapp"
   }
 }
