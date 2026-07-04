@@ -18,6 +18,9 @@ expo-env.d.ts
 *.key
 *.mobileprovision
 
+# EAS credentials (secretos de firma — nunca subir)
+credentials.json
+
 # Metro
 .metro-health-check*
 
